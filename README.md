@@ -204,3 +204,232 @@ Product-Data-Analysis/
 
 This project provides hands-on experience with essential Microsoft Excel functions used in data analysis. It demonstrates how formulas can automate calculations, categorize data, summarize information, and manipulate text, making Excel an effective tool for business and data analytics tasks.
 
+
+# Excel Assignment 2 – Data Exploration
+
+## Overview
+
+This project demonstrates **data cleaning and preprocessing techniques in Microsoft Excel** using a Product Dataset. The objective is to prepare raw data for analysis by handling missing values, correcting inconsistencies, removing duplicate records, transforming data, applying formatting, and using conditional formatting for better visualization.
+
+---
+
+## Dataset Information
+
+**Dataset:** Product Dataset
+
+### Attributes
+
+- Product ID
+- Product Name
+- Brand Name
+- Price ($)
+- Quantity
+- Category
+
+---
+
+## Objectives
+
+The following data cleaning operations were performed:
+
+- Handle missing values
+- Correct inconsistent text formatting
+- Fix spelling mistakes
+- Remove duplicate records
+- Split Product ID into separate fields
+- Merge Brand Name and Product Name
+- Apply number and date formatting
+- Use conditional formatting for visualization
+
+---
+
+## Tasks Performed
+
+### 1. Handling Missing Values
+
+- Identified missing values in the **Price** column.
+- Replaced missing prices using category-based averages.
+- Filled missing categories based on product information.
+
+---
+
+### 2. Data Standardization
+
+- Standardized product names using proper capitalization.
+- Corrected category spelling mistakes.
+
+Example:
+
+| Before | After |
+|---------|-------|
+| laptop | Laptop |
+| smartphone | Smartphone |
+| Electroni | Electronics |
+
+---
+
+### 3. Duplicate Removal
+
+- Identified duplicate records.
+- Removed duplicate rows using Excel's **Remove Duplicates** feature.
+
+---
+
+### 4. Data Transformation
+
+#### Split Product ID
+
+Example:
+
+```
+28-JAN-US
+```
+
+into
+
+| Manufacturing Date | Country Code |
+|--------------------|--------------|
+| 28-01-2024 | US |
+
+#### Merge Columns
+
+```
+Brand Name + Product Name
+```
+
+Example:
+
+```
+Dell + Laptop
+```
+
+↓
+
+```
+Dell Laptop
+```
+
+New column:
+
+```
+Product Brand
+```
+
+---
+
+### 5. Formatting
+
+Applied:
+
+- Currency formatting to Price column
+- DD-MM-YYYY date formatting
+- Improved table readability
+
+---
+
+### 6. Conditional Formatting
+
+Applied:
+
+- Data Bars for Price column
+- Highlight rule for **Electronics** category
+
+---
+
+## Tools Used
+
+- Microsoft Excel
+- Excel Functions
+  - PROPER()
+  - CONCAT()
+  - LEFT()
+  - RIGHT()
+  - MID()
+- Find & Replace
+- Remove Duplicates
+- Text to Columns
+- Conditional Formatting
+
+---
+
+## Project Structure
+
+```
+Excel-Assignment-2/
+│
+├── Product_Dataset.xlsx
+├── Cleaned_Product_Dataset.xlsx
+├── Excel_Assignment_Report.pdf
+├── Screenshots/
+│   ├── Missing_Values.png
+│   ├── Find_Replace.png
+│   ├── Duplicate_Removal.png
+│   ├── Split_Columns.png
+│   ├── Merge_Columns.png
+│   ├── Currency_Formatting.png
+│   └── Conditional_Formatting.png
+└── README.md
+```
+
+---
+
+## Learning Outcomes
+
+This project demonstrates practical knowledge of:
+
+- Data Cleaning
+- Data Preparation
+- Data Quality Management
+- Data Transformation
+- Data Formatting
+- Spreadsheet Proficiency
+- Data Visualization using Excel
+
+---
+
+## Skills Demonstrated
+
+- Missing Value Handling
+- Data Standardization
+- Duplicate Removal
+- Text Manipulation
+- Data Transformation
+- Number Formatting
+- Date Formatting
+- Conditional Formatting
+
+---
+
+## Screenshots
+
+Include screenshots of:
+
+- Missing Value Handling
+- Find & Replace
+- Duplicate Removal
+- Split Columns
+- Merge Columns
+- Currency Formatting
+- Conditional Formatting
+
+---
+
+## Conclusion
+
+The Product Dataset was successfully cleaned and transformed using Microsoft Excel. All missing values, inconsistencies, duplicate records, formatting issues, and structural problems were resolved, making the dataset accurate, consistent, and ready for further analysis.
+
+---
+
+## Author
+
+**Name:** *Your Name*
+
+**Course:** Data Analytics
+
+**Assignment:** Excel Assignment 2 – Data Exploration
+
+
+
+
+
+
